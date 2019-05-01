@@ -1,0 +1,28 @@
+-f - file exists or not
+
+s- replace string
+
+\b- for specific word as wildcard
+
+i - case sensitive
+ g - global
+
+
+\s- space
+\S-non space
+\w- alphanumeric
+
+
+.Match anything except \n
+\ hides special meaning 
+[] Character Class 
+[^] Negate Character Class
+In Character class , special characters lose their meanings and act as plain chars
+^string should starts with 
+$string should ends with 
+{n,m} : min n and max m
+? --> {0,1}
+* --> {0,}
++ --> {1,} 
+
+

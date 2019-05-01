@@ -1,0 +1,24 @@
+select A.D0_D7_NUTIPORELECTURA, A.D0_D8_NUTABLA , A.D0_NUESTADOFORMS ,
+select count ('*') FROM PPGA_TIPBONO where TIP_BONO = '7177'; 
+select * FROM TPB_PROMOCIONES where TPB_NUPROMOCION = '7177'; 
+select * FROM ngaaitemextension where itemname = 'HomeZone';  
+select * FROM ngaaitemextension where itemname = 'AnnouncementPolicy'; 
+select projectcode FROM cwpc_project where projectId in (select projectId FROM cwpc_projectCommand where CWDOCSTAMP in (select CWDOCSTAMP FROM CWPC_ITEMATTRIBUTE_V where itemcode like '%Tu_TPS15%'));
+select * FROM TPB_PROMOCIONES_F where TPB_NUPROMOCION = '2021'; 
+select * FROM TPU_GRUPOSPROMOCIONES_F;
+select * FROM TPC_PROMOCIONESPORGRUPO_F where TPC_TPU_NUGRUPOPROMOCION ='175';
+select * FROM TPB_PROMOCIONES where TPB_NUPROMOCION = '7870';
+ select * FROM T6_TIPOSDIAS where T6_NUTIPODIA =44;
+       select * FROM T2_TIPOSDESTINOS where T2_NUTIPODESTINO = 658909;
+                           select * FROM TF_CLASESTARIFAS where TF_NUCLASETARIFA=99892;
+                           select * FROM T1_Tarifas where T1_Nutarifa='67855'; 
+select * FROM PPGA_TIPBONPER;
+select * FROM PPGA_BONOS ;
+select * FROM PPGA_TIPBONPER_CICLOS
+if its topup origin then please select promotional in GUI
+select projectcode FROM cwpc_project where projectId in (select projectId FROM cwpc_projectCommand where CWDOCSTAMP in (select CWDOCSTAMP FROM CWPC_ITEMATTRIBUTE_V where itemcode like '%TU_RN1%'));
+select constraint_name, table_name ,STATUS FROM dba_constraints where CONSTRAINT_NAME like 'FK_TH_TPU2_H'; 
+rate:select * FROM T1_TARIFAS_F where T1_NUTARIFA= '5151';
+select * FROM RE_COM_PREPAGO.M9_TIPOSTARJETAS where M9_CDTIPOTARJETA='TRFLQNT';--- tariff plan
+select * FROM RE_COM_PREPAGO.T2_TIPOSDESTINOS where T2_NUTIPODESTINO=343422;--- destination id
+select * FROM RE_COM_PREPAGO.TF_CLASESTARIFAS where TF_NUCLASETARIFA=3434;--- tariff class
